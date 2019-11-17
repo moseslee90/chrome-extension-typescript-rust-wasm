@@ -3,7 +3,9 @@
 package uses Makefile:
 
 "make": installs dependencies and compiles project
+
 "make compile": compiles project
+
 "make install": installs dependencies
 
 ---
