@@ -1,4 +1,5 @@
 make :
+	yarn
 	sudo npm install -g typescript
 	npm install
 	wasm-pack build src/rust/ --out-dir ../../pkg
