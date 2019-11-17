@@ -10,6 +10,7 @@
         "harlo-wasm": "file:pkg-rust-wasm"
     },
     "devDependencies": {
+        "@types/chrome": "0.0.88",
         "hello-wasm-pack": "^0.1.0",
         "clean-webpack-plugin": "^1.0.0",
         "copy-webpack-plugin": "^5.0.0",
