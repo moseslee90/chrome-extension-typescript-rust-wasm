@@ -5,10 +5,10 @@
         "declarativeContent",
         "storage",
         "debugger",
-        "https://gammat-elk.diz:9200/gammat/dev"
+        "https://www.google.com/"
     ],
     "externally_connectable": {
-        "matches": ["https://www.tradingview.com/chart/*"]
+        "matches": ["https://www.google.com/"]
     },
     "options_page": "options.html",
     "background": {
@@ -16,7 +16,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://www.tradingview.com/chart/*"],
+            "matches": ["https://www.google.com/"],
             "js": ["contentScript.bundle.js"]
         }
     ],
