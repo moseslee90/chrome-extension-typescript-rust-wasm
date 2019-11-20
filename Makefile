@@ -2,7 +2,6 @@ make :
 	wasm-pack build src/rust/ --out-dir ../../pkg
 	yarn
 	sudo npm install -g typescript
-	npm install
 	tsc -b tsconfig.json
 	npm run build
 compile :
@@ -11,7 +10,6 @@ compile :
 	npm run build
 install :
 	sudo npm install -g typescript
-	npm install
 rust :
 	wasm-pack build src/rust/ --out-dir ../../pkg
 ts :
