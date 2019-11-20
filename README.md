@@ -7,27 +7,27 @@ I've merely modified the code structure to accomodate Rust (via WebAssembly) and
 
 1. Get the [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) crate
 2. Install [yarn](https://yarnpkg.com/lang/en/docs/install/).
-3. "make" to install dependencies and compile the project for the first time
+3. `make` to install dependencies and compile the project for the first time
 4. Load your extension on Chrome following:
     1. Access `chrome://extensions/`
     2. Check `Developer mode`
     3. Click on `Load unpacked extension`
     4. Select the compiled `build` folder.
-5. For subsequent changes in rust or typescript, use "make compile" to re-compile the `build` folder
+5. For subsequent changes in rust or typescript, use `make compile` to re-compile the `build` folder
 
 ## Makefile
 
 package uses Makefile:
 
-"make": installs dependencies and compiles project
+`make`: installs dependencies and compiles project
 
-"make compile": compiles project
+`make compile`: compiles project
 
-"make install": installs dependencies
+`make install`: installs dependencies
 
-"make rust": compiles just rust
+`make rust`: compiles just rust
 
-"make ts": compiles just typescript
+`make ts`: compiles just typescript
 
 I've included Samuel's original README below for reference, but do note that in this version, js is treated as compiled, so all javascript code should be written as typescript in the ts folder.
 
