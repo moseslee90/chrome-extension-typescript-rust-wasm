@@ -29,7 +29,7 @@ package uses Makefile:
 
 `make ts`: compiles just typescript
 
-I've included Samuel's original README below for reference, but do note that in this version, js is treated as compiled, so all javascript code should be written as typescript in the ts folder.
+I've included Samuel's original README below for reference, but do note that in this version with Rust and Typescript, js is treated as compiled, so all javascript code should be written as typescript in the ts folder.
 
 # Chrome Extension Webpack Boilerplate
 
